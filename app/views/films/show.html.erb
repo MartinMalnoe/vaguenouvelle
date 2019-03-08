@@ -21,8 +21,8 @@
 </p>
 
 <p>
-  <strong>Image url:</strong>
-  <%= @film.image_url %>
+  <strong>Image:</strong>
+  <%= image_tag  @film.image_url %>
 </p>
 
 <%= link_to 'Edit', edit_film_path(@film) %> |
